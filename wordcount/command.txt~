@@ -1,0 +1,5 @@
+Hadoop command 
+1. hadoop fs -ls
+2. hadoop fs -copyToLocal
+3. hadoop fs -copyFromLocal 
+
