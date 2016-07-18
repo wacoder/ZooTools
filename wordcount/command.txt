@@ -2,4 +2,7 @@ Hadoop command
 1. hadoop fs -ls
 2. hadoop fs -copyToLocal
 3. hadoop fs -copyFromLocal 
+4. hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -mapper /home/cloudera/workspace/hadoop/saleSum/mapper.py -reducer /home/cloudera/workspace/hadoop/saleSum/reducer.py  -input purchases.txt -output out2
+5. hadoop fs -get
+6. hadoop fs -put
 
