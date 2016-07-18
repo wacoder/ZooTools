@@ -19,7 +19,7 @@ for line in sys.stdin:
     if not m:
         continue
     host, ignore, user, date, request, status, size = m.groups()
-    print "{0}\t{1}".format(request,1)
+    print "{0}\t{1}".format(host,1)
 
 # test_txt = "10.223.157.186 - - [15/Jul/2009:15:50:36 -0700] \"GET /assets/img/dummy/secondary-news-4.jpg HTTP/1.1\" 200 5766"
 #
